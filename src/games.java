@@ -15,7 +15,7 @@ public class games {
 		int ten = 10;
 		int five = 5;
 		
-		System.out.println("How much do you want to invest?");
+		System.out.println("How much do you want to spend?");
 		String answer;
 		money = in.nextInt();
 		in.nextLine();
