@@ -34,15 +34,15 @@ public class games {
 		
 		if(rn == 7 && rn2 == 7 && rn3 == 7) {
 		money = money - round + ten;	
-		System.out.println("You won 10EUR, your new balance is: " + money);
+		System.out.println("You won 10€, your new balance is: " + money);
 		}
 		else if(rn == 7 && rn2 == 7 || rn == 7 && rn3 == 7 || rn2 == 7 && rn3 == 7) {
 			money = money - round + five;
-			System.out.println("You won 5EUR, your new balance is: " + money);
+			System.out.println("You won 5€, your new balance is: " + money);
 		}
 		else if(rn == 7 || rn2 == 7 || rn3 == 7) {
 			money = money - round + three;
-			System.out.println("You won 3EUR, your new balance is: " + money);
+			System.out.println("You won 3€, your new balance is: " + money);
 		}
 		else if(rn!= 7 && rn2 != 7 && rn3 != 7) {
 			money = money - round;
@@ -61,7 +61,7 @@ public class games {
 		
 		
 		} while (answer.equals("y"));
-		System.out.println("Thank you for playing! Your new balance is: " + money + " EUR");
+		System.out.println("Thank you for playing! Your new balance is: " + money + " €");
 		
 		
 	}
