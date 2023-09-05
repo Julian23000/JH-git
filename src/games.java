@@ -51,7 +51,7 @@ public class games {
 		
 		}
 		if(money>=1) {
-		System.out.println("Do you want to continue? (y/n)");	}
+		System.out.println("Would you like to continue? (y/n)");	}
 		
 		else {
 			System.out.println("You ran out of money! Better luck next time!");
